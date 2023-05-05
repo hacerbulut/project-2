@@ -4,8 +4,13 @@
   box-sizing: border-box;
 }
 body {
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,83,1) 35%, rgba(0,212,255,1) 100%);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(121, 9, 83, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 h1 {
   text-align: center;
@@ -22,7 +27,6 @@ img {
 }
 img:hover {
   width: 350px;
-  
 }
 
 .box {
@@ -46,11 +50,11 @@ p {
 .content p {
   width: 100%;
 }
-a{
+a {
   text-decoration: none;
   color: white;
 }
-button{
+button {
   float: right;
   margin-top: 10px;
   margin-right: 10px;
@@ -64,10 +68,10 @@ button{
   cursor: pointer;
 }
 
-button:hover{
+button:hover {
   border: none;
   outline: none;
   cursor: pointer;
   width: 120px;
   height: 45px;
-}    
+}
