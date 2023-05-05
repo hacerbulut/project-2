@@ -46,23 +46,6 @@ p {
 .content p {
   width: 100%;
 }
-
-.btn a {
-  float: right;
-  margin-top: 50px;
-  margin-right: 10px;
-  width: 100px;
-  height: 40px;
-  background-color: coral;
-  color: white;
-  border: none;
-  display: flex;
-  text-decoration: none;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  border-radius: 10px;
-}
 a{
   text-decoration: none;
   color: white;
