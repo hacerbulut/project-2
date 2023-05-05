@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url(./img/bg.png);
-  background-size: cover;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,83,1) 35%, rgba(0,212,255,1) 100%);
 }
 h1 {
   text-align: center;
@@ -18,21 +18,25 @@ img {
   width: 250px;
   float: left;
   margin-right: 20px;
+  border-radius: 10px;
 }
 img:hover {
   width: 350px;
+  
 }
 
 .box {
-  width: 80%;
-  height: 280px;
   margin: 10px 180px;
   padding: 20px;
-  background-image: url(./img/bg-2.png);
-  background-color: #ffffff;
-  /* opacity: 0.2; */
-  border-radius: 10px;
+  border-radius: 5px;
+  width: 80%;
+  height: 280px;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
+
 h2 {
   color: orange;
 }
